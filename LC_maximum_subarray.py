@@ -1,5 +1,7 @@
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
+    #def maxSubArray(self, nums: List[int]) -> int:
+    def maxSubArray(self, nums):
+
         maxSub = nums[0]
         curSum = 0
 
@@ -10,3 +12,6 @@ class Solution:
             maxSub = max(maxSub, curSum)
         
         return maxSub
+
+nums = [-2,1,-3,4,-1,2,1,-5,4]
+Solution.maxSubArray(nums)
