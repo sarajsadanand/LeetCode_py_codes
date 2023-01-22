@@ -14,4 +14,5 @@ class Solution:
         return maxSub
 
 nums = [-2,1,-3,4,-1,2,1,-5,4]
-Solution.maxSubArray(nums)
+a = Solution()
+a.maxSubArray(nums)
