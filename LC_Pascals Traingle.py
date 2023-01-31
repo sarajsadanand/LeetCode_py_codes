@@ -7,4 +7,4 @@ class Solution:
         return ans
 
 
-Solution().generate(3)
+print(Solution().generate(3))
